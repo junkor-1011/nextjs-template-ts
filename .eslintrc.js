@@ -5,11 +5,11 @@ module.exports = {
     node: true,
   },
   extends: [
-    'plugin:react/recommended',
+    // 'plugin:react/recommended',
+    'airbnb',
     'next',
     'next/core-web-vitals',
     'plugin:@next/next/recommended',
-    'airbnb',
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
