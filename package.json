@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint --dir src",
-    "format": "prettier --write --ignore-path .gitignore './src/**/*.{js,jsx,ts,tsx,css,scss,json}'"
+    "format": "prettier --write --ignore-path .gitignore './src/**/*.{js,jsx,ts,tsx,css,scss,json}'",
+    "build:static": "next build && next export"
   },
   "dependencies": {
     "next": "11.1.0",
